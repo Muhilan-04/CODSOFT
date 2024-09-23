@@ -1,0 +1,61 @@
+body {
+    background-image: url('back1.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgb(1, 78, 125);
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 30px;
+    background: #FF5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.image-fit{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 750px;
+    
+}
+
+#features, #trailer, #download {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    margin: 15px 0;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
